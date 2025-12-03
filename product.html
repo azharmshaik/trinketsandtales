@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Embroidered Kurta Set — Trinkets & Tales</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-white text-gray-800">
+<header class="container mx-auto px-4 py-6 flex items-center justify-between">
+  <a href="index.html" class="serif text-2xl text-[#8B2635]">Trinkets & Tales</a>
+  <nav class="hidden md:flex gap-6"><a href="index.html">Home</a></nav>
+</header>
+
+<main class="container mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+  <div>
+    <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=900" alt="Product" class="w-full h-[600px] object-cover rounded">
+  </div>
+  <div>
+    <h1 class="serif text-3xl font-bold text-[#8B2635] mb-2">Embroidered Kurta Set</h1>
+    <p class="text-gray-600 mb-6">Handcrafted kurta set with premium embroidery & breathable fabric.</p>
+    <div class="mb-6">
+      <span class="text-2xl font-bold text-[#8B2635]">₹2,399</span>
+      <span class="text-gray-400 line-through ml-3">₹2,999</span>
+    </div>
+
+    <form class="space-y-4 max-w-md">
+      <label class="block"><span class="text-sm">Size</span>
+        <select class="w-full border px-3 py-2 rounded">
+          <option>M</option><option>L</option><option>XL</option>
+        </select>
+      </label>
+      <label class="block"><span class="text-sm">Quantity</span>
+        <input type="number" min="1" value="1" class="w-full border px-3 py-2 rounded">
+      </label>
+
+      <div class="flex gap-3">
+        <button type="button" class="bg-[#8B2635] text-white px-6 py-3 rounded">Add to Cart</button>
+        <a href="contact.html" class="px-6 py-3 rounded border">Enquire</a>
+      </div>
+    </form>
+
+    <section class="mt-8">
+      <h3 class="font-semibold mb-2">Product Details</h3>
+      <ul class="text-gray-600 list-disc pl-4">
+        <li>Fabric: Premium blend</li>
+        <li>Care: Dry clean / gentle wash</li>
+        <li>Made in India</li>
+      </ul>
+    </section>
+  </div>
+</main>
+
+<footer class="bg-[#2C1810] text-white py-8 text-center">
+  © <span id="year3"></span> Trinkets & Tales
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
