@@ -1,0 +1,4 @@
+/* small site overrides */
+.container{max-width:1100px}
+a{transition:0.15s}
+.serif{letter-spacing:0.2px}
